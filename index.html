@@ -1,331 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Dat Resume</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-    body {
-    font: 400 15px Lato, sans-serif;
-    line-height: 1.8;
-    color: #818181;
-}
-
-.jumbotron {
-    font-family: Montserrat, sans-serif;
-}
-
-.navbar {
-    font-family: Montserrat, sans-serif;
-}
-h2 {
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #303030;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-
-h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    color: #303030;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-  .jumbotron {
-      background-color: #483D8B;
-      color: #fff;
-      padding: 100px 25px;
-  }
-    .container-fluid {
-    padding: 60px 50px;
-    }
-    .bg-grey {
-      background-color: #f6f6f6;
-  }
-  .logo {
-      font-size: 200px;
-  }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-  }
-.logo-small {
-    color: #483D8B;
-    font-size: 50px;
-}
-
-.logo {
-    color: #483D8B;
-    font-size: 200px;
-}
-.thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-}
-
-.thumbnail img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 10px;
-}
-.navbar {
-    margin-bottom: 0;
-    background-color:#483D8B ;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-}
-
-.navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-}
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-}
-footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #483D8B;
-}
-.slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-     
-  }
-     img {
- 
-    
-    width: 150px;
-    height: :100%px;
-}
-  </style>
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-<div class="jumbotron text-center">
-<h1>Dat Ngo</h1> 
-<p>IT STUDENT</p> 
-    <img src="cvImage.jpg" class="img-thumbnail" >
-</div>
-<!-- Container (About Section) -->
-<div class="container-fluid">
-    <div class="row">
-    <div class="col-sm-8">
-    <h2>ABOUT ME</h2>
-    <h4>My name is Ngo Tat Dat. I am a IT student at Vaasa University of Applied Sciences</h4>
-        
-  <p>
-Along with IT works, I also participate in other activities. I have a weekly football session and ocassionally, watching football on television. I used to play some PC games in the past. On my short breaks among work hours, I enjoy playing some 5 min chess game.</p>
-  <a href="http://www.linkedin.com/in/dat-ngo-tat-01461915a" class="btn btn-default">Get in touch</a>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
-    </div>    
-        </div>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Dat Ngo</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myTogglerNav"
+          aria-controls="myTogglerNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand"
+          ><img class="logo" src="./img/logo.jpg"
+        /></a>
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#introduction">Introduction</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+          <!-- navbar -->
         </div>
-
-<div class="container-fluid bg-grey">
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2> My Skills</h2>
-      <h4><strong>Web:</strong> HTML, CSS, jQuery, React.js, Node.js, Bootstrap,PHP</h4>      
-      <h4><strong>Development:</strong> Java, C, C++, C#, .Net, Python.</h4>  
-        <h4><strong>Database: </strong> MySQL, MongoDB.</h4>
-        <h4><strong>Mobile Development:  </strong> Xamarin.</h4> 
-        
-    </div>
-  </div>
-</div>
-    
-<!-- Container (Services Section) -->
-<div class="container-fluid text-center slideanim">
-  <h2>MY EXPERIENCES</h2>
-  <h4>What I Did</h4>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>Web Developer</h4>
-      <p>Misda s.r.o, Prague, Czech Republic</p>
-        <p> Web shop group team member, re-designing the solution of the web shop.</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>Web Developer</h4>
-      <p>ISG, Hanoi, Vietnam</p>
-        <p>Consulting group member. Design and Test the web application</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>Web Developer</h4>
-      <p>VAMK, Vaasa, Finland</p>
-        <p>Design a web application for a printing company named Origo Engineering Oy as a practical training for my school, VAMK.</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>Mobile Developer</h4>
-      <p>VAMK, Vaasa, Finland.</p>
-        <p>Design an Android application to display data for ABB Oy as a practical training for my school, VAMK</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>Web Developer</h4>
-      <p>CSF Data Company Limited, Hanoi, Vietnam</p>
-        <p>Information Technology member. Design and Test the web application</p>
-    </div>
-   
-  </div>
-</div>
-    
-<!-- Container (Portfolio Section) -->
-<!--div class="container-fluid text-center bg-grey slideanim">
-  <h2>Portfolio</h2><br>
-  <h4>What we have created</h4>
-  <div class="row text-center">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Xamarin-Designed for Mobile Apps</strong></p>
-        <p>Fill information pls</p>
+        <!-- collapse -->
+      </div>
+      <!-- container -->
+    </nav>
+    <!-- nav -->
+    <div class="jumbotron jumbotron-fluid m-0 d-flex" id="introduction">
+      <div class="container" >
+        <h1 class="m-5">About Me</h1>
+        <p class="m-5">
+          Determined Web Developer offering more than 3 years of expertise in
+          fast-paced departments. Bilingual and well-spoken with the ability to
+          work closely with people of all different backgrounds and
+          personalities. Seeking an opportunity to oversee a team of exceptional
+          developers in the well-established company.
+        </p>
+        <ul class="d-flex justify-content-center p-3">
+          <li class="mr-5">
+            <a href="https://github.com/DatNgo1995"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="mr-5">
+            <a href="mailto:datngotat1995@gmail.com"
+              ><i class="fas fa-mail-bulk"></i
+            ></a>
+          </li>
+          <li class="mr-5">
+            <a href="https://www.linkedin.com/in/dat-ngo-tat-01461915a/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+        <a
+          href="mailto:datngotat1995@gmail.com"
+          class="btn btn-dark float-right mr-5 "
+        >
+          Contact
+        </a>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>React based webweb app</strong></p>
-        <p>We built New York</p>
+    <div class="jumbotron jumbotron-fluid m-0 project-container"  id="projects">
+      <div class="container">
+        <h1 class="m-5">My Projects</h1>
+        <div class="row">
+          <div class="project col-md-6 mb-4 p-2">
+            <div id="origo" class="inside">
+              <img src="img/origo.PNG" />
+              <span class="title"><span>3D print</span></span>
+            </div>
+          </div>
+          <div class=" project col-md-6 mb-4 p-2">
+            <div id="chess-app" class="inside">
+              <img src="img/chess.PNG" />
+              <span class="title"><span>Chess App</span></span>
+            </div>
+          </div>
+          <div class=" project col-md-6 mb-4 p-2">
+            <div id="song-list" class="inside">
+              <img src="img/song-list.PNG" />
+              <span class="title"><span>Song List</span></span>
+            </div>
+          </div>
+          <div class="project col-md-6 mb-4">
+            <div id="libre" class="inside">
+              <img src="img/libre.PNG" />
+              <span class="title"><span>Libre</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content container -->
+    </div>
+    <div id="strength" class=" jumbotron jumbotron-fluid m-0 text-center">
+      <div class="container">
+        <h1 class="m-5">My Strength</h1>
+        <div class="row">
+          <div class=" col-md-4 p-2">
+              <i class="far fa-lightbulb"></i>
+            <h2  class="mb-4">Creative</h2>
+            <p>I have a lot of 'a ha' moments that do more good than harm.</p>
+          </div>
+          <div class=" col-md-4  p-2">
+              <i class="far fa-comments"></i>
+            <h2 class="mb-4">Communicative</h2>
+            <p>Half of my experience horns my technical skills, the other half tells me the importance of communication. With it, work is more efficient and workplace is more than a place to work.</p>
+          </div>
+          <div class=" col-md-4 p-2">
+              <i class="far fa-chart-bar"></i>
+            <h2 class="mb-4">Analytical</h2>
+            <p> I love numbers and evidence like they are my religion. If the numbers tell me I am doing alright, I know that I am just fine.  </p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
+    <div id="contact" class="jumbotron jumbotron-fluid m-0 project-container p-0">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p><i class="far fa-copyright mr-2"></i>2019 All Rights Reserved.</p>
+        <img class="logo" src="./img/logo.jpg" />
       </div>
     </div>
-  </div>
-</div-->
-    
-<div class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p></p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Vaasa, Finland</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +358 469437320</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> Datngotat1995@gmail.com</p> 
-    </div>
-    
-  </div>
-</div>
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>Design by Dat Ngo </p> 
-</footer>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
-</body>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
-
-
